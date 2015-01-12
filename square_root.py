@@ -1,12 +1,14 @@
+response = int(input("Give a positive number please. "))
+
+if response < 0:
+    print("You didn't put in a positive number!")
+    quit()
+
 while True:
     try:
-        response = int(input("Give a positive number please. "))
         break
     except:
         print("You didn't put in a number!")
-
-if response <= 0:
-    print("You didn't give a positive number!")
 
 guess = response - .01
 it = 0
