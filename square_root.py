@@ -2,10 +2,10 @@
 #Homework 1:
 
 def square(original):
-    guess = 0.1
+    guess = 1.0
     iteration = 1
-    while not abs((guess * guess) - original) < 0.0001 :
-        guess = (guess + original/guess) / 2
+    while not abs((guess * guess) - original) < 0.000001:
+        guess = (guess + (original/guess)) / 2
         print("{}: {}".format(iteration,guess))
         iteration += 1
     return guess
