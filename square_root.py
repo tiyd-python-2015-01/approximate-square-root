@@ -10,15 +10,15 @@ while True:
     except:
         print("You didn't put in a number!")
 
-guess = response - .01
+guess = response / 2
 it = 0
 
 while True:
     it += 1
     print("This is the iteration: {}. This is the guess:{}.".format(it, guess))
     x = (guess + (response/guess)) / 2
-    if (guess - x < .01):
+    if (guess - x < .0001):
         break
-    guess -= .01
+    guess -= .25
 
 print(guess)
