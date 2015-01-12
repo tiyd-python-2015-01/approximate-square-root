@@ -12,9 +12,9 @@ def square(original):
 
 while True:
     try:
-        original_number = int(input("Enter a positive number: "))
+        original_number = float(input("Enter a positive number: "))
         break
     except:
-        print("Try to stick with Positive Integers.")
+        print("Try to stick with Positive Numbers.")
 final_root = square(original_number)
 print("The square root of {} is {}".format(original_number, final_root))
