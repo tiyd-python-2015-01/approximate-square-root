@@ -57,7 +57,7 @@ Newton's method of successive approximations says that whenever we have a guess
 this over and over, we should be able to get a very accurate guess.
 
 You have to write a script that asks the user for a positive number and then
-compute the square root with a maximum error of 0.1. You then print out your
+compute the square root with a maximum error of 0.01. You then print out your
 answer to the user.
 
 ## Hard Mode
