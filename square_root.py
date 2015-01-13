@@ -22,14 +22,14 @@ try:
         print("Final Answer:", guess_number, "Last Iteration:", iteration)
 
     else:
-        #complex_number = (complex(user_input))
-        #while not guess_number**2 - error > complex_number > guess_number**2 + error:
-            #print("This is iteration", iteration)
-            #iteration += 1
-            #print("The number used to guess was", guess_number)
-            #complex_number = (guess_number - (complex_number/guess_number))/2
-        #print("*"*60)
-        #print("Final Answer:", guess_number, "Last Iteration:", iteration)
+        # complex_number = (complex(user_input))
+        # while not guess_number**2 - error > complex_number > guess_number**2 + error:
+            # print("This is iteration", iteration)
+            # iteration += 1
+            # print("The number used to guess was", guess_number)
+            # complex_number = (guess_number - (complex_number/guess_number))/2
+            # print("*"*60)
+        # print("Final Answer:", guess_number, "Last Iteration:", iteration)
         print("Ooops, not an odd number!")
 
 
