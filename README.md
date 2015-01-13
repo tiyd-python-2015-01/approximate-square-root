@@ -1,3 +1,12 @@
+#Jason Aylward
+#Homework 1
+#January 12 2015
+
+Submitted program should satisfy both Normal, Hard and Extra Hard Mode objectives
+
+
+
+/////////////////////////////
 # Approximate a square root
 
 ## Description
@@ -44,7 +53,7 @@ The square root of 4 is 2.0.
 $ python square_root.py
 Enter a positive number: 20
 The square root of 20 is 4.472137791286727.
-```
+
 
 Your program will be tested with the script `test.sh`. To run this script, run
 `brew install roundup` first.
